@@ -11,6 +11,10 @@ aio = Client(x,y)
 #sending a value to feed
 from Adafruit_IO import Client, Feed, Data
 
+#create feed
+feed=Feed(name='bot') #feed name given
+result=aio.create_feed(feed)
+
 
 from telegram.ext import Updater, CommandHandler
 import requests
