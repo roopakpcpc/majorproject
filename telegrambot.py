@@ -1,5 +1,6 @@
-x = "roopakpcpc"#io username
-y = "aio_dnuT36QehOEfK6fRJBzP0Q8o2Q0t"# io key
+import os
+x = os.getenv('x')
+y =os.getenv('y')
 
 !pip install python-telegram-bot
 !pip install adafruit-io
