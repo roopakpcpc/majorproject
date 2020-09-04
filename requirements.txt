@@ -5,3 +5,4 @@ adafruit-io
 Client
 Data
 Updater
+CommandHandler
