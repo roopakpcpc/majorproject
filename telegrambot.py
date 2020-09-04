@@ -1,6 +1,7 @@
 import os
 x = os.getenv('x')
 y =os.getenv('y')
+z=os.getenv('z')
 
 !pip install python-telegram-bot
 !pip install adafruit-io
@@ -24,7 +25,7 @@ def off(bot,update):
   value=Data(value=0)
   value_send=aio.create_data('bot',value)
 
-u=Updater('1381707135:AAEyzALCkUUtx7fyKVFKQ9oD-HrVq8rCpIE')
+u=Updater(z)
 dp=u.dispatcher
 dp.add_handler(CommandHandler('on',on))
 dp.add_handler(CommandHandler('off',off))
