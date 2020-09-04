@@ -1,6 +1,6 @@
 import os
-x = os.getenv('x')
-y = os.getenv('y')
+x = "roopakpcpc"
+y = 'aio_pLLt997gnBplcoIeduG5PNHiPF8N'
 
 !pip install python-telegram-bot
 !pip install adafruit-io
