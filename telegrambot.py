@@ -22,7 +22,7 @@ def off(bot,update):
   value=Data(value=0)
   value_send=aio.create_data('bot',value)
 
-u=Updater(os.getenv('z'))
+u=Updater('1381707135:AAEyzALCkUUtx7fyKVFKQ9oD-HrVq8rCpIE')
 dp=u.dispatcher
 dp.add_handler(CommandHandler('on',on))
 dp.add_handler(CommandHandler('off',off))
