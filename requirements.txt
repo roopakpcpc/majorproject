@@ -1,4 +1,4 @@
 requests
 Adafruit_IO
 python-telegram-bot
-CommandHandler
+adafruit-io
