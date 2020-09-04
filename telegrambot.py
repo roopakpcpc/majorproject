@@ -3,8 +3,8 @@ x = os.getenv('x')
 y = os.getenv('y')
 z = os.getenv('z')
 
-!pip install python-telegram-bot
-!pip install adafruit-io
+pip install python-telegram-bot
+pip install adafruit-io
 from Adafruit_IO import Client, Feed, Data
 aio = Client(x,y)
 
